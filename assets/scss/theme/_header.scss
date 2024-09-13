@@ -7,8 +7,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-block-start: 1rem;
-	padding-block-end: 1rem;
 	position: relative;
 
 	.site-title {
@@ -22,6 +20,11 @@
 		flex-direction: column;
 		justify-content: center;
 		gap: 0.5rem;
+	}
+
+	.header-container {
+		border-bottom: 1px solid #3c3d3d;
+		background: black;
 	}
 
 	.header-inner {

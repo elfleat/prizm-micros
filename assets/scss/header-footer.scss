@@ -2,3 +2,32 @@
 @import "theme/header";
 @import "theme/footer";
 @import "theme/navigation";
+
+
+.site-navigation ul.menu li a {
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+.header-inner {
+    .side-menu {
+        a {
+            float: right;
+            margin-left: 10px;
+            margin-top: 20px;
+            font-size: 28px;
+            
+            i {
+                color: white;
+            }
+            
+            &.account-link {
+                // background-image: url(./assets/images/user-icon.png);
+            }
+            &.shopping-cart-link {
+                // background-image: url(./assets/images/cart-icon.png);
+            }
+        }
+    }
+
+}
