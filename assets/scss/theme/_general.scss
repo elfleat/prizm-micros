@@ -4,7 +4,6 @@
 
 .page-content,
 .comments-area {
-
 	a {
 		text-decoration: underline;
 	}
@@ -29,8 +28,8 @@
 
 //Gutenberg support
 .alignwide {
-	margin-left: -80px;
-	margin-right: -80px;
+	// margin-left: -80px;
+	// margin-right: -80px;
 }
 
 //Gutenberg support
@@ -40,7 +39,7 @@
 	max-width: 100vw;
 	width: 100vw;
 
-	img  {
+	img {
 		width: 100vw;
 	}
 }
@@ -92,7 +91,7 @@
 }
 
 .hide {
-    display: none !important;
+	display: none !important;
 }
 
 .post-password-form p {
@@ -101,6 +100,78 @@
 	align-items: flex-end;
 }
 
-.post-password-form [type=submit] {
+.post-password-form [type="submit"] {
 	margin-inline-start: 3px;
+}
+
+.product-list {
+	// background-color: red;
+
+	.product-items {
+		// flex-wrap: wrap !important;
+		display: block !important;
+
+		.product-img {
+			margin: 0 auto;
+		}
+	}
+}
+
+.faq-box {
+	transition: all ease-in-out 0.2s;
+
+	&:hover {
+		transform: scale(1.1) rotate(3deg);
+
+		.elementor-heading-title,
+		.elementor-widget-container {
+			color: black !important;
+			text-align: center;
+		}
+	}
+
+	.elementor-heading-title,
+	.elementor-widget-container {
+		text-align: center;
+		transition: all ease-in-out 0.2s;
+	}
+}
+
+// .faq-box {
+// 	padding: 30px;
+// 	background: rgba(0, 0, 0, 0.8);
+// 	border: 4px solid #ffce00;
+// 	margin: 20px;
+// 	border-radius: 10px;
+// 	transition: all 0.3s ease-in-out;
+// }
+
+// .faq-box:hover {
+// 	background: #ffce00;
+// 	border-color: black;
+
+// 	.elementor-heading-title,
+// 	.elementor-widget-container {
+// 		color: black !important;
+// 	}
+// }
+
+// .faq-box1 {
+// 	transform: perspective(150px) rotateX(-5deg) rotateY(1deg) rotateZ(2deg);
+// }
+
+// .faq-box2 {
+// 	transform: perspective(165px) rotateX(1deg) rotateY(-2deg) rotateZ(3deg);
+// }
+
+// .faq-box3 {
+// 	transform: perspective(145px) rotateX(3deg) rotateY(2deg) rotateZ(1deg);
+// }
+
+.the-rocket {
+	right: 40px !important;
+}
+
+html {
+	scroll-behavior: smooth;
 }

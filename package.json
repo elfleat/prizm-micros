@@ -59,6 +59,7 @@
         "@babel/plugin-transform-runtime": "^7.3.4",
         "@lodder/grunt-postcss": "^3.1.1",
         "grunt-autoprefixer": "^3.0.4",
-        "grunt-cssnano": "^2.1.0"
+        "grunt-cssnano": "^2.1.0",
+        "replace-in-file": "^8.2.0"
     }
 }

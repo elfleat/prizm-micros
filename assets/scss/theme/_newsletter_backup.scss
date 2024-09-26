@@ -1,0 +1,44 @@
+.newsletter-form {
+	[data-field-id] {
+		padding: 10px 0;
+	}
+
+	[type="email"] {
+		border-radius: 10px;
+		width: 60% !important;
+	}
+
+	@media only screen and (max-width: 1000px) {
+		[type="email"] {
+			// max-width: 60% !important;
+		}
+
+		button[type="submit"] {
+			max-width: 30% !important;
+			float: right;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			width: 100%;
+			// margin-top: -80px !important;
+			font-size: 90% !important;
+		}
+	}
+
+	// @media only screen and (min-width: 786px) {
+	// 	.wpforms-submit-container {
+	// 		text-align: center;
+	// 		width: 30%;
+	// 		margin-top: -50px !important;
+	// 		float: right !important;
+	// 	}
+	// }
+
+	[type="submit"] {
+		width: 30%;
+		float: right;
+		padding: 0px;
+		font-weight: bold;
+		margin: -15px auto 0;
+		margin-top: -80px;
+	}
+}
