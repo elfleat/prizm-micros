@@ -3,8 +3,8 @@
 Contributors: elemntor, KingYes, ariel.k, bainternet
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 3.1.1
-Version: 3.1.1
+Stable tag: 3.1.2
+Version: 3.1.2
 Requires PHP: 7.4
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -36,7 +36,7 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 
 == Changelog ==
 
-= 3.1.1 - 2024-07-30 =
+= 3.1.2 - 2024-07-30 =
 * Fix: Use consistent `<h2>` for comments title and comment form
 
 = 3.1.0 - 2024-06-19 =
